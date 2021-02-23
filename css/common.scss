@@ -1,0 +1,44 @@
+.mannaka{
+	width:500px;
+	min-height:300px;
+	background:#000;
+	margin-left:auto;
+	margin-right:auto;
+	color:#fff;
+}
+
+.mannaka .left{
+	width:43%;
+	float:left;
+	padding:3%;
+}
+
+.mannaka .left img{
+	width:100%;
+	height:auto;	
+}
+.mannaka div{
+	width:43%;
+	float:right;
+	padding:3%;
+}
+
+@media screen and (max-width: 769px){
+	.mannaka{
+		width:94%;
+		background:#fd0000;
+	}
+	.mannaka .left{
+		width:94%;
+	}
+	.mannaka .right{
+		width:94%;
+	}
+	
+}
+
+@media screen and (max-width: 500px){
+
+	
+	
+}
